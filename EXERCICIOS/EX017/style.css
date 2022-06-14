@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+*{
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+body{
+    /*Medidas Absolutas
+cm, mm, in (polegada), px, pt, pc
+
+Medidas Relativas
+em(tamanho relativo atual da fonte), ex(Relativo a altura X), rem(Fonte que está configurada no body), vw(Largura do viewport em % ou tamanho de tela em %), vh(Altura do view port)
+16px geralmente = 1em
+
+sendo px e em as mais recomendadas pela W3C
+*/
+font-size: 17px;
+font-weight: 100;
+
+/*Valores aceitos para intensidade da fonte: lighter normal bold bolder e também tem a numerica que começa em 100 e vai até 900*/
+/*weight(peso) width(largura) height(altura)*/
+
+
+}
+
+
+h1{
+
+/*shorthand: font-
+ font-style-> font-weight-> font-size-> font-family*/
+ font: italic bolder 3em 'Gill Sans, Gill Sans MT', calibri, 'Trebuchet MS', sans-serif;
+ 
+}

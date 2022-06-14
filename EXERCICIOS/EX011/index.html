@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML-5</title>
+</head>
+<body>
+    <h1>Imagem Dinãmica</h1>
+    <p>Tente abrir esse site em varios dipositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture> 
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML-5.</p>
+    <audio src="midia/born-rockstar.mp3" controls autoplay>Escuta uma musica do meu repertório.</audio> <!--Outras formatos de audios compativeis com navagadores: MP3 WAV OGG-->
+    <audio preload="">
+<source src="midia/born-rockstar.mp3" type="audio/mpegpk">
+<p>infelizmente seu navegador não consegue abrir áudios. <a href="midia/born-rockstar.mp3">clique aqui para baixar o arquivo MP3</a></p>
+
+    </audio>
+    
+
+</body>
+</html>
