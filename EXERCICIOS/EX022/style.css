@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+
+
+body{
+    background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+
+div.quadrado{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+div#q1{
+    background-color: blueviolet;
+
+}
+
+div#q2{
+    background-image: linear-gradient(to bottom, black, rgba(255, 0, 0, 0.555));
+
+
+}
+
+div#q3{
+    background-image: url('imagens/wallpaper002.jpg');
+
+}
+
+
