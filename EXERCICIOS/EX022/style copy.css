@@ -2,7 +2,15 @@
 
 
 
-
+section{
+    background-color: white;
+        width: 400px;
+        padding: 10px;
+        margin: auto;
+        border: 1px solid darkblue;
+        border-radius: 14px;
+    
+   }
 body{
     height: 100vh;
     background-color: black;
@@ -10,15 +18,10 @@ body{
     background-size: cover ;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
 }
-main{
-    background-color: bisque;
-    width: 400px;
-    padding: 10px;
-    margin: auto;
-    border: 1px solid black;
-    border-radius: 14px;
-}
+
+
 
 
 
