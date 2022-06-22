@@ -7,12 +7,12 @@ body{
     height: 100vh;
     background-color: black;
     background-image: url('IMAGENS/wallpaper002.jpg');
-    background-size: 100vw ;
+    background-size: cover ;
     background-repeat: no-repeat;
-    
+    background-position: center center;
 }
 main{
-    background-color: wheat;
+    background-color: bisque;
     width: 400px;
     padding: 10px;
     margin: auto;
