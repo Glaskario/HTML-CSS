@@ -44,10 +44,10 @@ header > p{
 }
 a:hover{
     text-decoration: underline;
-    color: rgba(156, 130, 12, 0.664);
+    color: #974578;
 }
 section{
-    font-family: var(--fonte3);
+    font-family: var(--fonte1);
     font-size: 3vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -60,12 +60,12 @@ section > p{
 }
 
 section.normal{
-    background-color: white;
+    background-color: #1c282fad;
     color: black;
 }
 section.imagem{
     background-color: rgb(43, 40, 40);
-    color:white;
+    color:rgb(224, 212, 212);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.726);
 }
 section.imagem > p{
