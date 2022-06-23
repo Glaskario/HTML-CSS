@@ -19,7 +19,9 @@ html, body{
 
 }
 header{
-    background-color: black;
+    background-image: url('https://images.wallpaperscraft.com/image/single/paint_stains_pink_136631_3840x2400.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     color:white;
     text-align: center;
     padding-bottom: 10px;
@@ -51,6 +53,10 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    background-size: cover;
+}
+section > p{
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -59,13 +65,31 @@ section.normal{
 }
 section.imagem{
     background-color: rgb(43, 40, 40);
-    color:white
+    color:white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.726);
 }
 section.imagem > p{
-    display:inline-block ;
+    display:inline-block;
     background-color: rgba(0, 0, 0, 0.678);
     padding: 4px;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px black;
+
     
+}
+section#img01{
+background-image: url('https://images.wallpaperscraft.com/image/single/paint_stains_spots_138192_3840x2400.jpg');
+background-position: right center;
+background-attachment: fixed;
+
+}
+
+section#img02{
+
+    background-image: url('https://images.wallpaperscraft.com/image/single/stains_liquid_texture_146886_3840x2400.jpg');
+    background-position: left center;
+    background-attachment: fixed;
+   
 }
 
 
