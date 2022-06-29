@@ -15,6 +15,12 @@
             border-collapse: collapse;
 
         }
+        caption{
+         font-size: 1.5em;
+         font-weight: bold;
+         padding: 10px;
+         background-color: lightgray;
+        }
         td, th{
             border: 1px solid black;
             padding: 10px;
@@ -24,6 +30,10 @@
             background-color: gray;
             color: white;
         }
+        tbody tr:nth-child(2n){
+         background-color: lightgray;
+
+        }
     </style>
 </head>
 <body>
@@ -31,6 +41,7 @@
     <!--Anatomia PARA TABELAS GRANDES
     
     TABLE
+      CAPTION
         THEAD
         TR, TD, TH
         TBODY
@@ -41,9 +52,10 @@
     -->
 
     <table>
+      <caption>Uso de tabelas grandes</caption>
         <thead>
-           <th>ESTADO</th>
-           <th>POPULAÇÃO</th>
+           <th scope="col">ESTADO</th>
+           <th scope="col" style="width:50px;">POPULAÇÃO</th>
 
         </thead>
 
@@ -163,7 +175,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td>00000</td>
             </tr>
 
