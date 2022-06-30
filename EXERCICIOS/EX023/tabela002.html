@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
         caption{
@@ -28,7 +29,12 @@
         }
         thead{
             background-color: gray;
-            color: white;
+            color: black;
+        }
+        thead > tr > th{
+         position: sticky;
+         top: -1px;
+         background-color:lightgray;
         }
         tbody tr:nth-child(2n){
          background-color: lightgray;
@@ -172,6 +178,7 @@
              </tr>
              
         </tbody>
+        
 
         <tfoot>
             <tr>
@@ -180,6 +187,7 @@
             </tr>
 
         </tfoot>
+        
 
 
 
@@ -187,5 +195,6 @@
 
 
     </table>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat consectetur debitis quisquam. Sunt quos eos itaque voluptas sed ex ut maiores eveniet repudiandae expedita assumenda, a obcaecati illum, voluptate perferendis!</p>
 </body>
 </html>
