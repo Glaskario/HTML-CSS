@@ -24,6 +24,9 @@
         #esquerda{
             text-align: left;
         }
+        .cor{
+            background-color: gray;
+        }
 
 
 
@@ -33,12 +36,18 @@
     <table>
 
         <thead>
-            <th rowspan="2">Área</th>
-            <th rowspan="2">Disciplinas</th>
-            <th colspan="2" scope="colgroup">Notas</th>
-            <th rowspan="2">Média</th>
-            <tr><th>Nota 1</th>
-                <th>Nota 2</th></tr>
+            <th rowspan="2" class="cor" scope="colgroup">Área</th>
+
+            <th rowspan="2" class="cor" scope="colgroup">Disciplinas</th>
+
+            <th colspan="2" scope="colgroup"
+            class="cor" >Notas</th>
+
+            <th rowspan="2" class="cor" scope="colgroup">Média</th>
+
+            <tr><th class="cor">Nota 1</th>
+
+                <th class="cor">Nota 2</th></tr>
             
         </thead>
 
@@ -46,7 +55,7 @@
             
             
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
                 <th>Matemática</th>
                 <td>0</td>
                 <td>0</td>
@@ -77,11 +86,11 @@
 
             </tr>
             <tr>
-                <th colspan="4" id="esquerda">Média Exatas</th>
-                <td>0</td>
+                <th colspan="4" id="esquerda" class="cor" scope="row">Média Exatas</th>
+                <td class="cor">0</td>
             </tr>
             <tr>
-                <th rowspan="4">Humanas</th>
+                <th rowspan="4" scope="rowgroup">Humanas</th>
                 <th>História</th>
                 <td>0</td>
                 <td>0</td>
@@ -100,8 +109,8 @@
         </tbody>
 
         <tfoot>
-            <th colspan="4" id="esquerda">Média de Humanas</th>
-            <td>0</td>
+            <th colspan="4" id="esquerda" class="cor" scope="row">Média de Humanas</th>
+            <td class="cor">0</td>
 
             
 
