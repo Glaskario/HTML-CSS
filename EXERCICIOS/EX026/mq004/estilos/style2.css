@@ -1,3 +1,77 @@
 @charset "UTF-8";
 
 /*Todas as demais midias*/
+
+
+/*Typical Device Breakpoints
+-----------------------------
+
+pequenas telas: até 600px
+Celuluar: de 600 até 768px
+tablet:768pc até 992px
+desktop: 992px até 1200px 
+Grandes telas: acima de 1200px
+*/
+@media print {
+    body{
+        background-image: url(../imagens/icon-print.jpg);
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    main > h1{
+        text-shadow: none;
+
+    }
+    main::after {
+        content: 'Produzido por joãozinhosDev123';
+        text-decoration: overline;
+    }
+    img#phone{
+        display: none;
+
+    }
+    img#print{
+        display: block;
+    }
+}
+@media screen and (min-width:768px) and  (max-width:992px) {
+
+   body{
+    background-image: url(../imagens/back-tablet.jpg);
+   } 
+   img#tablet{
+    display: block;
+   }
+   img#phone{
+    display: none;
+   }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+        
+    }
+    img#pc{
+        display: block;
+    }
+   
+    img#phone{
+        display: none;
+    }
+}
+@media screen and (min-width:1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+        
+    }
+    img#tv{
+        display: block;
+    }
+    img#phone{
+        display: none;
+    }
+    main{
+        width: 70%;
+    }
+}
